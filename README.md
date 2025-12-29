@@ -133,6 +133,3 @@ This project is open-source and available under the **MIT License**.
 
 ```
 
-**Would you like me to help you create a `requirements.txt` file specifically for this project so the installation step works perfectly?**
-
-```
