@@ -111,7 +111,7 @@ The models were trained using a high-quality retinal dataset. Below are the test
 | **Custom CNN** | **85.07%** | **0.4210** | Lightweight and fast inference |
 
 More detailed evaluation and visual training history can be found in:
-**`eye-disease-classification-custom-cnn-effnetb0.ipynb`**
+**`Eye Disease Classification: Custom CNN & EffNetB0.ipynb`**
 
 ---
 
