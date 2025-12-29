@@ -1,4 +1,4 @@
-# 👁️ RetinalNet | AI Eye Disease Classifier
+# 👁️ Eye Disease Classifier
 
 **RetinalNet** is a high-performance Deep Learning application designed to classify retinal fundus images into four clinical categories (**Cataract, Diabetic Retinopathy, Glaucoma, and Normal**). This project serves as a diagnostic aid to help prevent irreversible vision loss through early AI-driven screening.
 
@@ -31,6 +31,8 @@ The project features a comprehensive Jupyter Notebook for model development and 
 ├── app.py                                              # Gradio Application Entry Point
 ├── requirements.txt                                    # Project dependencies
 └── README.md                                           # Project Documentation
+
+---
 
 ## 🛠️ Installation
 
@@ -95,14 +97,36 @@ More detailed evaluation and visual training history can be found in:
 
 ---
 
-## 🎓 Internship & Credits
+## 🤝 Contributing
 
-This project was developed during a **Deep Learning internship at Aitronix**.
+Contributions help make the open‑source community a powerful place to learn, inspire, and create. Any improvements you make to **Ocularis Eye Classifier** are greatly appreciated!
 
-* **Mentorship:** Special thanks to **Mr. Mina N. Nabil** for his continuous support and valuable guidance.
-* **Environment:** Project developed using clinical datasets and specialized internship resources.
+### **How to Contribute**
+
+1. **Fork the Project**
+2. **Create your Feature Branch**
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit your Changes**
+
+   ```bash
+   git commit -m "Add some AmazingFeature"
+   ```
+4. **Push to the Branch**
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Open a Pull Request**
 
 ---
+
+## 📝 License
+
+This project is open-source and available under the **MIT License**.
+
 
 ## 📝 License
 
