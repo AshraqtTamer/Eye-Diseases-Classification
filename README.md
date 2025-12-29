@@ -43,7 +43,7 @@ The model training and experimentation were conducted using **Kaggle Kernels** t
 ## 📂 Project Structure
 
 ```text
-├── eye-disease-classification-custom-cnn-effnetb0.ipynb  # Data analysis, EDA, and Model Training
+├── Eye Disease Classification: Custom CNN & EffNetB0.ipynb  # Data analysis, EDA, and Model Training
 ├── eye_disease_model.h5                                # Trained Model Weights
 ├── app.py                                              # Gradio Application Entry Point
 ├── requirements.txt                                    # Project dependencies
