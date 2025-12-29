@@ -1,9 +1,9 @@
-# 👁️ RetinalNet | Eye Disease Classifier
+# 👁️ Eye-Diseases-Classification
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue.svg)](https://www.kaggle.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**RetinalNet** is a high-performance Deep Learning application designed to classify retinal fundus images into four clinical categories: **Cataract, Diabetic Retinopathy, Glaucoma, and Normal**. This project serves as a diagnostic aid to help prevent irreversible vision loss through early AI-driven screening.
+**Eye-Diseases-Classification** is a high-performance Deep Learning application designed to classify retinal fundus images into four clinical categories: **Cataract, Diabetic Retinopathy, Glaucoma, and Normal**. This project serves as a diagnostic aid to help prevent irreversible vision loss through early AI-driven screening.
 
 
 
@@ -47,28 +47,24 @@ The model training and experimentation were conducted using **Kaggle Kernels** t
 
 ---
 
-
-
-
-# 👁️ Ocularis Eye Classifier
-
-A deep-learning powered retinal disease classification system built with **TensorFlow** and deployed using **Gradio**.
-
 ---
 
 ## 🛠️ Installation
 
 ### **Prerequisites**
 
-* Python **3.8 or higher**
-* **pip** package manager
+* **Python 3.8+** (Ensures compatibility with TensorFlow/Keras)
+* **pip** (Python package manager)
+* **Virtual Environment** (Recommended)
 
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/ocularis-eye-classifier.git
-cd ocularis-eye-classifier
-```
+# Clone the project from GitHub
+git clone [https://github.com/yourusername/EEye-Diseases-Classification.git](https://github.com/yourusername/Eye-Diseases-Classification.git)
+
+# Navigate into the project directory
+cd Eye-Diseases-Classification
 
 ### **2. Install Dependencies**
 
