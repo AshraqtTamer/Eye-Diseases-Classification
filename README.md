@@ -94,11 +94,11 @@ python app.py
 The app will open automatically in your browser at `http://127.0.0.1:7860`.
 
 ### **How to Use**
-
 1. **Upload Image** – Drag and drop a retinal fundus image into the input area.
-2. **Analyze** – The model automatically preprocesses the image (224×224) and performs inference.
-3. **View Results** – See the predicted disease category and confidence scores for all four eye conditions.
-
+2. **Model Selection** – The system processes the image according to the selected model requirements:
+    * **Custom CNN:** Images are automatically resized to **256x256**.
+    * **EfficientNetB0:** Images are automatically resized to **224x224**.
+3. **View Results** – Receive the predicted disease category and clinical confidence scores.
 ---
 
 ## 📊 Model Performance
