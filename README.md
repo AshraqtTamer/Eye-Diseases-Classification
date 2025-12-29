@@ -130,6 +130,3 @@ Contributions help make the open‑source community a powerful place to learn, i
 ## 📝 License
 
 This project is open-source and available under the **MIT License**.
-
-```
-
