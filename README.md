@@ -48,6 +48,14 @@ The model training and experimentation were conducted using **Kaggle Kernels** t
 ---
 
 
+
+
+# 👁️ Ocularis Eye Classifier
+
+A deep-learning powered retinal disease classification system built with **TensorFlow** and deployed using **Gradio**.
+
+---
+
 ## 🛠️ Installation
 
 ### **Prerequisites**
@@ -67,7 +75,6 @@ cd ocularis-eye-classifier
 ```bash
 pip install -r requirements.txt
 ```
-
 ---
 
 
