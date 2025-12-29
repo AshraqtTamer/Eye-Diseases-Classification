@@ -1,3 +1,4 @@
+
 # 👁️ Eye-Diseases-Classification
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue.svg)](https://www.kaggle.com/)
@@ -17,6 +18,9 @@ The model training and experimentation were conducted using **Kaggle Kernels** t
 * **Environment:** Kaggle Python 3 Docker Image
 * **Hardware:** NVIDIA Tesla P100 / T4 GPU
 * **Dataset:** Retinal Fundus Images
+
+
+
 ---
 
 ## 🚀 Features
@@ -40,12 +44,12 @@ The model training and experimentation were conducted using **Kaggle Kernels** t
 
 ```text
 ├── eye-disease-classification-custom-cnn-effnetb0.ipynb  # Data analysis, EDA, and Model Training
-├── eye_disease_model.h5                                
+├── eye_disease_model.h5                                # Trained Model Weights
 ├── app.py                                              # Gradio Application Entry Point
 ├── requirements.txt                                    # Project dependencies
 └── README.md                                           # Project Documentation
 
----
+```
 
 ---
 
@@ -55,26 +59,26 @@ The model training and experimentation were conducted using **Kaggle Kernels** t
 
 * **Python 3.8+** (Ensures compatibility with TensorFlow/Keras)
 * **pip** (Python package manager)
-* **Virtual Environment** (Recommended)
 
 ### **1. Clone the Repository**
 
 ```bash
 # Clone the project from GitHub
-git clone [https://github.com/yourusername/EEye-Diseases-Classification.git](https://github.com/yourusername/Eye-Diseases-Classification.git)
+git clone [https://github.com/yourusername/Eye-Diseases-Classification.git](https://github.com/yourusername/Eye-Diseases-Classification.git)
 
 # Navigate into the project directory
 cd Eye-Diseases-Classification
+
+```
 
 ### **2. Install Dependencies**
 
 ```bash
 pip install -r requirements.txt
+
 ```
+
 ---
-
-
-
 
 ## 🖥️ Usage
 
@@ -84,22 +88,16 @@ Launch the Gradio interface locally:
 
 ```bash
 python app.py
-```
-
-The app will open automatically in your browser at:
 
 ```
-http://127.0.0.1:7860
-```
+
+The app will open automatically in your browser at `http://127.0.0.1:7860`.
 
 ### **How to Use**
 
 1. **Upload Image** – Drag and drop a retinal fundus image into the input area.
 2. **Analyze** – The model automatically preprocesses the image (224×224) and performs inference.
-3. **View Results** – See:
-
-   * Predicted disease category
-   * Confidence scores for all four eye conditions
+3. **View Results** – See the predicted disease category and confidence scores for all four eye conditions.
 
 ---
 
@@ -107,10 +105,10 @@ http://127.0.0.1:7860
 
 The models were trained using a high-quality retinal dataset. Below are the test results:
 
-| Model Architecture | Test Accuracy | Test Loss  | Key Strength                               |
-| ------------------ | ------------- | ---------- | ------------------------------------------ |
-| **EfficientNetB0** | **89.10%**    | **0.2962** | Best for high-precision clinical diagnosis |
-| **Custom CNN**     | **85.07%**    | **0.4210** | Lightweight and fast inference             |
+| Model Architecture | Test Accuracy | Test Loss | Key Strength |
+| --- | --- | --- | --- |
+| **EfficientNetB0** | **89.10%** | **0.2962** | Best for high-precision clinical diagnosis |
+| **Custom CNN** | **85.07%** | **0.4210** | Lightweight and fast inference |
 
 More detailed evaluation and visual training history can be found in:
 **`eye-disease-classification-custom-cnn-effnetb0.ipynb`**
@@ -119,26 +117,12 @@ More detailed evaluation and visual training history can be found in:
 
 ## 🤝 Contributing
 
-Contributions help make the open‑source community a powerful place to learn, inspire, and create. Any improvements you make to **Ocularis Eye Classifier** are greatly appreciated!
-
-### **How to Contribute**
+Contributions help make the open‑source community a powerful place to learn, inspire, and create. Any improvements you make to **Eye-Diseases-Classification** are greatly appreciated!
 
 1. **Fork the Project**
-2. **Create your Feature Branch**
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Commit your Changes**
-
-   ```bash
-   git commit -m "Add some AmazingFeature"
-   ```
-4. **Push to the Branch**
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
+2. **Create your Feature Branch** (`git checkout -b feature/your-feature-name`)
+3. **Commit your Changes** (`git commit -m "Add some AmazingFeature"`)
+4. **Push to the Branch** (`git push origin feature/your-feature-name`)
 5. **Open a Pull Request**
 
 ---
@@ -147,4 +131,8 @@ Contributions help make the open‑source community a powerful place to learn, i
 
 This project is open-source and available under the **MIT License**.
 
+```
 
+**Would you like me to help you create a `requirements.txt` file specifically for this project so the installation step works perfectly?**
+
+```
