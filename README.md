@@ -34,6 +34,7 @@ The project features a comprehensive Jupyter Notebook for model development and 
 
 ---
 
+
 ## 🛠️ Installation
 
 ### **Prerequisites**
@@ -55,6 +56,9 @@ pip install -r requirements.txt
 ```
 
 ---
+
+
+
 
 ## 🖥️ Usage
 
@@ -128,6 +132,3 @@ Contributions help make the open‑source community a powerful place to learn, i
 This project is open-source and available under the **MIT License**.
 
 
-## 📝 License
-
-This project is open-source and available under the **MIT License**.
