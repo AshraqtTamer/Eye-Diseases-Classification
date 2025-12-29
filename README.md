@@ -1,9 +1,22 @@
-# 👁️ Eye Disease Classifier
+# 👁️ RetinalNet | Eye Disease Classifier
 
-**RetinalNet** is a high-performance Deep Learning application designed to classify retinal fundus images into four clinical categories (**Cataract, Diabetic Retinopathy, Glaucoma, and Normal**). This project serves as a diagnostic aid to help prevent irreversible vision loss through early AI-driven screening.
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue.svg)](https://www.kaggle.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The project features a comprehensive Jupyter Notebook for model development and a user-friendly **Gradio** web application for real-time diagnostic predictions.
+**RetinalNet** is a high-performance Deep Learning application designed to classify retinal fundus images into four clinical categories: **Cataract, Diabetic Retinopathy, Glaucoma, and Normal**. This project serves as a diagnostic aid to help prevent irreversible vision loss through early AI-driven screening.
 
+
+
+The project features a comprehensive **Jupyter Notebook** (developed on Kaggle) for model development and a user-friendly **Gradio** web application for real-time diagnostic predictions.
+
+---
+
+## ☁️ Cloud Development (Kaggle)
+The model training and experimentation were conducted using **Kaggle Kernels** to leverage high-performance GPU accelerators. 
+
+* **Environment:** Kaggle Python 3 Docker Image
+* **Hardware:** NVIDIA Tesla P100 / T4 GPU
+* **Dataset:** Retinal Fundus Images
 ---
 
 ## 🚀 Features
@@ -27,7 +40,7 @@ The project features a comprehensive Jupyter Notebook for model development and 
 
 ```text
 ├── eye-disease-classification-custom-cnn-effnetb0.ipynb  # Data analysis, EDA, and Model Training
-├── eye_disease_model2.h5                                
+├── eye_disease_model.h5                                
 ├── app.py                                              # Gradio Application Entry Point
 ├── requirements.txt                                    # Project dependencies
 └── README.md                                           # Project Documentation
